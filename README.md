@@ -4,7 +4,8 @@ A sample excel file with benefit values for pooling rides has been attached. The
 
 ![image](https://user-images.githubusercontent.com/96037819/146886335-ed701ace-407e-4f51-b1aa-0bf02d1fd7dd.png)
 
-Future refinements to consider:
+Code improvements to consider (future work):
 - List currently appends all possible combinations of rides, and then pops out the duplicates. Example the list will have A-B and B-A as two rides to pool, and then the code removes the duplicates. Code can be refined to have a check and update the list only once.
 - Improve the output file that has better readability of the combinations of rides to pool.
 - Reduction of time complexity
+- Code improvements to pool more than 2 rides together
